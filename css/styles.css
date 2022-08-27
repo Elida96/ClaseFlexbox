@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+   font-style: normal;
+   
+}
+ header {
+    background-color: #222222;
+    display:flex;
+    justify-content: space-between;
+ }
+ header .header_top{
+    display: flex;
+    width: 315px;
+    padding: 15px;
+    padding-left: 20px;
+ }
+ header ul{
+   display: flex;
+   align-items: center;   
+ }
+ header ul li a{
+    text-decoration: none;
+    color: white;
+ }
+ header ul li {
+    list-style: none;
+    padding: 10px;
+ }
+ header div h1{
+    color: white;
+ }
+ header div h1 .verde{
+    color: #39B24A;
+ }
+ header div h1 .rojo{
+color: #FC200C; 
+ }
+ main{
+   display: flex;
+   background-color: #E5E5E5;
+   justify-content: center;
+   height: 503px;
+   align-items: center;
+ }
+main section{
+   width: 30%;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   background-color: #FFFFFF;
+   margin-top: 35px;
+   /* margin-right: 5px; */
+   border-radius: 5px;
+   margin-bottom: 35px;
+   height: 350px;
+}
+main section.section-left{
+   margin-right:5px;
+   background-image: url('../img/moto.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+main section.section-left h2{
+   padding-left: 10px;
+   align-self: flex-start;
+   color:#FC200C;
+   font-weight: 700;
+}
+main section .podio{
+   color: #FC200C;
+}
+main section .envio span{
+   color: white;
+}
+main section .top-5{
+   width: 80%;
+   display: flex;
+   height: 65%;
+}
+main section .top-5 .top-5-left{
+   width:50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+main section .top-5 .top-5-right{
+   width:50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main section .top-5 .top-5-left li{
+   font-weight: bold;
+}
+main section .top-5 div img{
+   width:92px;
+   height:129px;
+}
+footer {
+   background-color: #222222;
+   justify-content: space-between;
+   display: flex;
+   flex-direction: row-reverse;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+footer .footer_bottom{
+   display: flex;
+   width: 277px;
+   padding: 15px;
+   padding-left: 20px;
+   justify-content: space-between;
+    align-items: center;
+}
+footer ul li a{
+   text-decoration: none;
+   color: white;
+}
+footer ul li {
+   list-style: none;
+   padding: 10px;
+}
+footer div h2{
+   color: white;
+}
+footer div h2 .verde{
+   color: #39B24A;
+}
+footer div h2 .rojo{
+color: #FC200C; 
+}
+
+
